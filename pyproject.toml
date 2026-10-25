@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MLabsPy"
+version = "0.0.1"
+authors = [
+  { name="Abu Khadeejah Karl", email="salamcast@gmail.com" },
+]
+description = "Motion Labs PM-XXX log file parser and plot"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "pandas"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/salamcast/MLabsPy"
